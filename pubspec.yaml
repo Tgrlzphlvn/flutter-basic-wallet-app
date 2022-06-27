@@ -1,0 +1,49 @@
+name: basic_wallet_sample
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.3
+
+  # IOS
+  cupertino_icons: ^1.0.2
+
+  # Cache
+  shared_preferences: ^2.0.15
+  hive_flutter: ^1.1.0
+  path: ^1.8.1
+
+  # Lottie
+  lottie: ^1.3.0
+
+  # Chart
+  syncfusion_flutter_charts: ^20.1.61
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.1.11
+
+  hive_generator: ^1.1.2
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
